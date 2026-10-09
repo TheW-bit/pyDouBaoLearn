@@ -1,0 +1,13 @@
+# 虚拟环境：体积大、每台机器不一样，不入库
+venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyCharm 个人配置
+.idea/
+
+# 程序运行生成的输出文件
+score_stats.json
