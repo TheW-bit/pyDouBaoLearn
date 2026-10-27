@@ -11,3 +11,27 @@ __pycache__/
 
 # 程序运行生成的输出文件
 score_stats.json
+
+# 数据库与向量库数据（本地数据，不入库）
+*.db
+*.db-journal
+chroma_db/
+chroma_db_lc/
+chroma_db_persist_test/
+chroma_db_test/
+
+# 本地工具（体积大，不入库）
+ngrok.exe
+
+# 密钥相关：备份与脱敏脚本一律不入库
+_backup_with_keys/
+_sanitize_keys.py
+
+# 飞书文档同步用的临时文件
+_s*.md
+_doc_*.md
+_doc_*.json
+
+# 图表数据输出
+students.csv
+draft_a0a8ac4e_folder
